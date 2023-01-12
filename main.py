@@ -38,6 +38,13 @@ n2=int(input("enter the second number:"))
 #func call
 sub(n1,n2)
 
+#square root of a number
+import math
+num = float(input(" Enter a number: "))
+sqRoot = math.pow(num, 0.5)
+print("The square root of a given number {0} = {1}".format(num, sqRoot))
+
+
 #func to multiply two numbers 
 def mul(x,y):
   result=x*y
